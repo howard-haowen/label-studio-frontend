@@ -7,10 +7,7 @@ import Messages from "../utils/messages";
 import { DialogueAnalysis } from "../examples/dialogue_analysis"; // eslint-disable-line no-unused-vars
 import { NamedEntity } from "../examples/named_entity"; // eslint-disable-line no-unused-vars
 import { References } from "../examples/references"; // eslint-disable-line no-unused-vars
-import { Required } from "../examples/required"; // eslint-disable-line no-unused-vars
 import { Sentiment } from "../examples/sentiment_analysis"; // eslint-disable-line no-unused-vars
-import { Nested } from "../examples/nested_choices/complicated"; // eslint-disable-line no-unused-vars
-import { Nested as NestedSimple } from "../examples/nested_choices"; // eslint-disable-line no-unused-vars
 
 /**
  * Audio
@@ -23,9 +20,7 @@ import { TranscribeAudio } from "../examples/transcribe_audio"; // eslint-disabl
  * Image
  */
 import { ImageBbox } from "../examples/image_bbox"; // eslint-disable-line no-unused-vars
-import { ImageKeyPoint } from "../examples/image_keypoints"; // eslint-disable-line no-unused-vars
 import { ImageMultilabel } from "../examples/image_multilabel"; // eslint-disable-line no-unused-vars
-import { ImageEllipselabels } from "../examples/image_ellipses"; // eslint-disable-line no-unused-vars
 import { ImagePolygons } from "../examples/image_polygons"; // eslint-disable-line no-unused-vars
 import { ImageSegmentation } from "../examples/image_segmentation"; // eslint-disable-line no-unused-vars
 
@@ -38,7 +33,6 @@ import { HTMLDocument } from "../examples/html_document"; // eslint-disable-line
  * Different
  */
 import { Pairwise } from "../examples/pairwise"; // eslint-disable-line no-unused-vars
-
 import { TimeSeries } from "../examples/timeseries"; // eslint-disable-line no-unused-vars
 
 /**
